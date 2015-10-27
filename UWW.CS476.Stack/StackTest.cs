@@ -10,7 +10,8 @@ namespace UWW.CS476.Stack
     [TestFixture]
     public class StackTest
     {
-        [ExpectedException(typeof(InvalidOperationException))]
+        [Test]
+        [ExpectedException(typeof(EmptyStackException))]
         public void Pop()
         {
             Stack<int> stack = new Stack<int>();
