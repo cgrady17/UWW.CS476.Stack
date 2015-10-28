@@ -54,7 +54,28 @@
     <Compile Include="StackTTest.ClearTest.g.cs">
       <DependentUpon>StackTTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="StackTTest.ConstructorTest.g.cs">
+      <DependentUpon>StackTTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StackTTest.ConstructorTest01.g.cs">
+      <DependentUpon>StackTTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="StackTTest.cs" />
+    <Compile Include="StackTTest.EmptyTest.g.cs">
+      <DependentUpon>StackTTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StackTTest.PeekTest.g.cs">
+      <DependentUpon>StackTTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StackTTest.PopTest.g.cs">
+      <DependentUpon>StackTTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StackTTest.PushTest.g.cs">
+      <DependentUpon>StackTTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StackTTest.SizeTest.g.cs">
+      <DependentUpon>StackTTest.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
